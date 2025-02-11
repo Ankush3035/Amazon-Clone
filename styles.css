@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    margin-bottom: 05px; /* Adjust the value as needed */
+}
+
+.hero-section {
+    background: url('Banner.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.scroll-container {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+    padding-right: 10px; /* Add padding for better scrollbar visibility */
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 8px; /* Custom scrollbar width */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.signin-container {
+    width: 100%;
+    max-width: 350px;
+}
+
+.about-hero {
+    background: #232f3e;
+    padding: 60px 0;
+}
+
+/* Contact Header */
+.contact-header {
+    background: #232f3e;
+    padding: 60px 0;
+}
+
+
+.footer {
+    background-color: #232f3e;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer p, .footer a {
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer i {
+    font-size: 20px;
+}
